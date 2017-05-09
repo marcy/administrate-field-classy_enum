@@ -1,9 +1,15 @@
-require "administrate/field/classy_enum/version"
+require 'administrate/field/select'
+require 'rails'
 
 module Administrate
   module Field
-    module ClassyEnum
-      # Your code goes here...
+    class ClassyEnum < Administrate::Field::Select
+      def to_s
+        data.text
+      end
+
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
