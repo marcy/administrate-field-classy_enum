@@ -1,8 +1,6 @@
 # Administrate::Field::ClassyEnum
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/administrate/field/classy_enum`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A plugin to show [ClassyEnum] attributes in [Administrate].
 
 ## Installation
 
@@ -34,3 +32,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/marcy/administrate-field-classy_enum. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+[Administrate]: https://github.com/thoughtbot/administrate
+
+[ClassyEnum]: https://github.com/AgilionApps/classy_enum
